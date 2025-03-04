@@ -50,3 +50,13 @@ The final structure of data folder should be arranged as follows:
 |  ├── AutoLparo
       ......
 ```
+
+## Pretrained Parameters
+* [TimeSformer](https://github.com/facebookresearch/TimeSformer) trained on [K400 dataset](https://www.dropbox.com/s/g5t24we9gl5yk88/TimeSformer_divST_8x32_224_K400.pyth?dl=0) with frames 8 and spatial size 224 as initialization parameters.
+* [VIT](https://github.com/google-research/vision_transformer) pre-trained on ImageNet-21k and fine-tuned on ImageNet with patchsize 16 and spatial size 224.
+
+## Training
+```shell
+sh train_phase_gpus_fusion.sh
+```
+> Please change pretrained_path, pretrained_path_of_fusion, data_path, eval_data_path to your own directory and remind to change data_set when you want to use another dataset.
