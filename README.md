@@ -1,8 +1,11 @@
 # LSTCL
 
 ## Introduction
-![Figure 1 from paper](new_intro.png)
-Surgical phase recognition, a critical aspect of surgical work-
+<p align="center">
+  <img src="new_intro.png" alt="Figure 1 from paper" width="800"/>
+</p>
+
+- Surgical phase recognition, a critical aspect of surgical work-
 flow analysis, has received substantial attention due to its potential to
 improve intraoperative decision-making and training. However, a signifi-
 cant challenge in this field is the instrument-bias problem, where models
@@ -17,7 +20,9 @@ tionally, a short-term debiasing mechanism mitigates the direct impact
 of instrument appearance. Extensive experiments on two public datasets
 demonstrate the superior performance of our method over state-of-the-
 art methods as well as effectiveness of each component.
-![Figure 2 from paper](method.png)
+<p align="center">
+  <img src="method.png" alt="Figure 2 from paper" width="800"/>
+</p>
 ## Installation
 1. git clone this repo.
 2. Create a virtual environment
