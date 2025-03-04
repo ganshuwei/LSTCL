@@ -340,12 +340,3 @@ class LSTA(nn.Module):
         
         return output
 
-@register_model
-def build_lsta(num_classes=7, appearance_model=None, temporal_model=None, **kwargs):
-    model = LSTA(
-        num_classes=num_classes,
-        appearance_model=appearance_model,
-        temporal_model=temporal_model,
-        **kwargs
-    )
-    return model
