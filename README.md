@@ -22,3 +22,10 @@ We use the dataset [Cholec80](https://camma.unistra.fr/datasets/) and [AutoLapar
 > python cutmargin.py
 ```
 > Please change source_path and save_path to your own directory.
+
+4. Generate PKL
+```shell
+> python datasets/data_preprosses/generate_labels_ch80.py
+> python datasets/data_preprosses/generate_labels_autolaparo.py
+```
+## 
