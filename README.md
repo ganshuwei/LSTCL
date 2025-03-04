@@ -28,4 +28,25 @@ We use the dataset [Cholec80](https://camma.unistra.fr/datasets/) and [AutoLapar
 > python datasets/data_preprosses/generate_labels_ch80.py
 > python datasets/data_preprosses/generate_labels_autolaparo.py
 ```
-## 
+
+The final structure of data folder should be arranged as follows:
+```
+(root folder)
+├── data
+|  ├── cholec80
+|  |  ├── cutMargin
+|  |  |  ├── 1
+|  |  |  ├── 2
+|  |  |  ├── 3
+|  |  |  ├── ......
+|  |  |  ├── 80
+|  |  ├── labels
+|  |  |  |  ├── train
+|  |  |  |  |  ├── 1pstrain.pickle
+|  |  |  |  |  ├── ...
+|  |  |  |  ├── test
+|  |  |  |  |  ├── 1psval_test.pickle
+|  |  |  |  |  ├── ...
+|  ├── AutoLparo
+      ......
+```
