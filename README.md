@@ -5,21 +5,8 @@
   <img src="new_intro.png" alt="Figure 1 from paper" width="800"/>
 </p>
 
-- Surgical phase recognition, a critical aspect of surgical work-
-flow analysis, has received substantial attention due to its potential to
-improve intraoperative decision-making and training. However, a signifi-
-cant challenge in this field is the instrument-bias problem, where models
-overly rely on the appearance of surgical instruments rather than the
-actual surgical phase. To address this, we introduce a novel methodol-
-ogy, Long-Short Term Counterfactual Learning (LSTCL), which aims to
-disentangle instrument appearance from surgical phases. By leveraging
-both short-term and long-term representations of surgical videos, LSTCL
-incorporates a Long-Short Term Aggregation (LSTA) module to fuse
-dynamic, keypoint-centric context with long-term video features. Addi-
-tionally, a short-term debiasing mechanism mitigates the direct impact
-of instrument appearance. Extensive experiments on two public datasets
-demonstrate the superior performance of our method over state-of-the-
-art methods as well as effectiveness of each component.
+- Surgical phase recognition, a critical aspect of surgical workflow analysis, has received substantial attention due to its potential to improve intraoperative decision-making and training. However, a significant challenge in this field is the instrument-bias problem, where models overly rely on the appearance of surgical instruments rather than the actual surgical phase. To address this, we introduce a novel methodology, Long-Short Term Counterfactual Learning (LSTCL), which aims to disentangle instrument appearance from surgical
+phases. By leveraging both short-term and long-term representations of surgical videos, LSTCL incorporates a Long-Short Term Aggregation (LSTA) module to fuse dynamic, keypointcentric context with long-term video features. Additionally, a short-term debiasing mechanism mitigates the direct impact of instrument appearance. Extensive experiments on two public datasets demonstrate the superior performance of our method over state-of-the-art methods as well as effectiveness of each component.
 <p align="center">
   <img src="method.png" alt="Figure 2 from paper" width="800"/>
 </p>
