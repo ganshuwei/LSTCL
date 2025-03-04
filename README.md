@@ -1,8 +1,9 @@
 # LSTCL
 
 ## Introduction
-![Figure 1 from paper](new_intro.pdf)
-![Figure 2 from paper](method.pdf)
+<p align="center">
+  <img src="new_intro.pdf"  width="800"/>
+</p>
 ## Installation
 1. git clone this repo.
 2. Create a virtual environment
