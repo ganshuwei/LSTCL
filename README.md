@@ -23,6 +23,7 @@ art methods as well as effectiveness of each component.
 <p align="center">
   <img src="method.png" alt="Figure 2 from paper" width="800"/>
 </p>
+
 ## Installation
 1. git clone this repo.
 2. Create a virtual environment
