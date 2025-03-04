@@ -1,0 +1,1 @@
+ {'unique_id': 96891, 'frame_id': 382, 'video_id': 'video80', 'tool_gt': [1, 0, 1, 0, 0, 0, 0], 'phase_gt': 1, 'phase_name': 'CalotTriangleDissection', 'fps': 1, 'original_frames': 43101, 'frames': 1724.0}
