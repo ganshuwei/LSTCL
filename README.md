@@ -17,3 +17,8 @@ We use the dataset [Cholec80](https://camma.unistra.fr/datasets/) and [AutoLapar
 ```shell
 > ffmpeg –i Your_Video_name.mp4 -vf fps=1 %d.png
 ```
+3. Cut the black margin and resize frames.
+```shell
+> python cutmargin.py
+```
+> Please change source_path and save_path to your own directory.
