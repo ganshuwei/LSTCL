@@ -1,7 +1,8 @@
 # LSTCL
 
 ## Introduction
-
+![Figure 1 from paper](new_intro.pdf)
+![Figure 2 from paper](method.pdf)
 ## Installation
 1. git clone this repo.
 2. Create a virtual environment
