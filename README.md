@@ -2,7 +2,7 @@
 
 ## Introduction
 <p align="center">
-  <img src="new_intro.pdf"  width="800"/>
+  <iframe src="new_intro.pdf"  width="800"/>
 </p>
 ## Installation
 1. git clone this repo.
