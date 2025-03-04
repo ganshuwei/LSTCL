@@ -1,9 +1,7 @@
 # LSTCL
 
 ## Introduction
-<p align="center">
-  <iframe src="new_intro.pdf"  width="800"/>
-</p>
+[📄 View PDF](new_intro.pdf)
 ## Installation
 1. git clone this repo.
 2. Create a virtual environment
