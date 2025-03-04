@@ -76,7 +76,7 @@ sh train_phase_gpus_fusion.sh
 ```shell
 sh test_phase_gpus_fusion.sh
 ```
-3. Use [Matlab Evaluation Code](https://github.com/isyangshu/Surgformer/tree/master/evaluation_matlab) to compute metrics.
+3. Use Matlab Evaluation Code to compute metrics.
 
 ## Acknowledgements
 Really appreciate the author of following work:
